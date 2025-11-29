@@ -1,16 +1,56 @@
-# React + Vite
+🎬 Movie Search App (React + OMDb API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Movie & Series Search Application built using React, Tailwind CSS, React Router, and the OMDb API.
+It features advanced search, filtering, pagination, detailed movie view, error handling, and a smooth user experience.
 
-Currently, two official plugins are available:
+🚀 Features
+🔍 Search Movies & TV Shows
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live search using debounced input
 
-## React Compiler
+Filter results by type:
+All, Movie, Series, Episode
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📄 Movie Details Page
 
-## Expanding the ESLint configuration
+High-quality poster display
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Complete details: Plot, Director, Cast, Genre, Release Date, Awards, IMDb Rating, Runtime, Country, Language
+
+Responsive UI with a modern glass-morphism design
+
+📊 Pagination
+
+“Next” and “Previous” controls
+
+Shows remaining results
+
+Uses OMDb’s built-in paging system
+
+⚠️ Error Handling
+
+API errors shown clearly on screen
+
+Handles no results, invalid queries, network issues
+
+💨 Optimized Search
+
+500ms debounce to prevent excess API calls
+
+Smooth UI with loading spinner
+
+🧭 Navigation
+
+Home page with search and results
+
+Details page with full movie info
+
+Fully handled by React Router
+
+🎨 UI / UX
+
+Tailwind CSS for fast, responsive styling
+
+Professional layout
+
+Clean empty state before searching
